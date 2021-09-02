@@ -1,0 +1,139 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header{
+	width: 100%;
+	height: 200px;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	border-bottom: 2px solid black;
+}
+
+#principal{
+	width: 1000px;
+	height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#banner{
+	height: 400px;
+	width: 100%;
+	background-image: url(../img/banner2.jpg);
+	background-attachment: fixed;
+	background-position: bottom;
+	filter: brightness(40%);
+}
+
+#logo{
+	width: 300px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#listaMenu{
+	width: inherit;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.itemLista{
+	width: 200px;
+	height: inherit;
+	float: left;
+	margin-left: 40px;
+	text-align: center;
+	list-style: none;
+	font-family: verdana;
+	font-size: 1em;
+	letter-spacing: 4px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding-top: 5px;
+	font-weight: 200;
+}
+
+
+
+#cardapio{
+	height: 700px;
+	width: 100%;
+	background-image: url(../img/cardapio.jpg);
+/*	filter: brightness(40%);*/
+}
+
+
+
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: blueviolet;
+}
+
+.organizarSecao{
+	width: 1250px;
+	height: inherit;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.menuCardapio{
+	width: 350px;
+	height: 600px;
+	border: 2px solid white;
+	border-radius: 10px 10px 10px 10px;
+	margin-left: 50px;
+	float: left;
+	padding: 20px;
+	color: white;
+	font-family: verdana;
+}
+
+h3{
+	letter-spacing: 2px;
+	text-align: center;
+	width: 310px;
+	height: 30px;
+}
+
+#combo{
+	height: 700px;
+	width: 100%;
+}	
+
+.listaCardapio{
+	width: 310px;
+	height: 500px;
+	color: white;
+}
+
+.itemCardapio{
+	height: 30px;
+	width: inherit;
+	font-size: 1.2em;
+	letter-spacing: 2px;
+}
+
+.subItemCardapio{
+	width: inherit;
+	height: 30px;
+	font-size: 0.9em;
+}
