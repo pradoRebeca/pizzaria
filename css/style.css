@@ -14,17 +14,22 @@ body{
 header{
 	width: 100%;
 	height: 200px;
-	justify-content: center;
-	display: flex;
-	flex-direction: column;
-	border-bottom: 2px solid black;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	font-weight: bold;
 }
 
 #principal{
-	width: 1000px;
-	height: 120px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;
+	height: 40px;
+	background-color: #ededed;
+	border-bottom: 3px solid black;
 }
 
 #banner{
@@ -36,21 +41,39 @@ header{
 	filter: brightness(70%);
 }
 
-#logo{
+/*
+#contato{
+	height: 240px;
+	width: 70px;
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	position: relative;
+	position: fixed;
+	margin-left: 100px;
+}
+
+.itemContato{
+	height: 60px;
+	width: inherit;
+	margin-bottom: 10px;
+	background-color: aqua;
+}
+*/
+
+#logo, img{
 	width: 300px;
 	height: 150px;
 	margin-left: auto;
 	margin-right: auto;
-
+	margin-bottom: 10px;
 }
 
 #listaMenu{
-	width: inherit;
+	width: 1000px;
 	height: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
 }
 
 
@@ -71,25 +94,19 @@ header{
 }
 
 #cardapioPizza, #cardapioEsfirra{
-	height: 700px;
+	height: 800px;
 	width: 100%;
-/*	background-color: #0f0f0f;*/
 	background-image: url(../img/banner10.jpg);
 }
 
-footer{
-	width: 100%;
-	height: 200px;
-	background-color: red;
-}
 
 .organizarSecao{
 	width: 1250px;
-	height: 700;
+	height: inherit;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 50px;
-	padding-top: 50px;
+	padding-bottom: 100px;
+	padding-top: 100px;
 }
 
 .menuCardapio{
@@ -182,28 +199,107 @@ h3{
 
 .imgCombo{
 	width: 300px;
-	height: 250;
+	height: 280px;
 	float: left;
 	padding-bottom: 20px;
+	padding-top: 40px;
+	filter: brightness(90%);
+}
+
+.listaDescricao{
+	width: 350px;
+	height: 250px;
+	list-style: none;
 	padding-top: 20px;
 }
 
-.textoCombo{
+.itemDescricao{
+	padding-top: 15px;
 	font-size: 1.2em;
+	height: 40px;
 	letter-spacing: 2px;
 	font-family: verdana;
+}
+
+.precoDescricao{
+	letter-spacing: 2px;
+	font-family: verdana;
+	font-size: 1.4em;
+	font-weight: 100;
+	height: 30px;
+	margin-top: 20px;
+	font-weight: 700;
 }
 
 h2{
+	width: 350px;
+	height: 30px;
 	letter-spacing: 2px;
 	font-family: verdana;
 }
 
-.organizarCombo, #combo{
-	padding-top: 100px;
-	padding-bottom: 100px;
+.organizarCombo{
 	width: 1250px;
-	height: 1500;
+	height: 1140px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#combo{
+	padding-top: 150px;
+	padding-bottom: 100px;
+	width: 100%;
+	height: 1390px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#localizacao{
+	width: 100%;
+	height: 800px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#organizarlocal{
+	width: 800px;
+	height: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#imgLocal{
+	width: 500px;
+	height: 500px;
+	margin-left: 150px;
+}
+
+
+#textoLocal{
+	letter-spacing: 2px;
+	font-family: verdana;
+	font-size: 1.8em;
+	font-weight: 500;
+	padding-left: 40px;
+	margin-top: 40px;
+	border-top: 1px solid black;
+	height: 60px;
+	padding-top: 10px;
+}
+
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: black;
+}
+
+#textoFooter{
+	font-family: verdana;
+	font-size: 0.8em;
+	color: white;
+	width: 1000px;
+	height: inherit;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 80px;
 }

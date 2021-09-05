@@ -12,25 +12,56 @@
 
 <body>
 	<header> 
-		<img id="logo" src="img/logo.png">
+		<div id="logo">
+			<img  src="img/logo.png">
+		</div>
 		
 		<div id="principal"> 
 			<ul id="listaMenu">
-				<li class="itemLista"> CARDAPIO </li>
-				<li class="itemLista"> COMBO </li>
-				<li class="itemLista"> VARIEDADES </li>
-				<li class="itemLista"> LOCALIZAÇÃO </li>
+				<li class="itemLista">
+					<a href="#cardapioPizza">
+						PIZZAS
+					</a>
+				</li>
+				<li class="itemLista"> 
+					<a href="#combo">
+						COMBO
+					</a> 
+				</li>
+				<li class="itemLista"> 
+					<a href="#cardapioEsfirra">
+						ESFIRRAS 
+					</a>
+				</li>
+				<li class="itemLista"> 
+					<a href="#localizacao">
+						LOCALIZAÇÃO
+					</a> 
+				</li>
 			</ul>
 		</div>
 	</header>
 	<div id="banner">
-		
+		<div id="contato"> 
+			<div class="itemContato"> 
+			
+			</div>
+			
+			<div class="itemContato"> 
+			
+			</div>
+			
+			<div class="itemContato"> 
+			
+			</div>
+		</div>
 	</div>
 	
 	<div id="cardapioPizza">
 		<div class="organizarSecao">
+			<!-- Cadapio pizaza doce-->
 			<div class="menuCardapio"> 
-				<h3> PIZZA SALGADA </h3>
+				<h3> PIZZA DOCE </h3>
 				<ul class="listaCardapio"> 
 					<li class="itemCardapio"> Prestigio </li>
 					<p class="subItemCardapio"> Calabresa, cebola e orégano </p>
@@ -46,19 +77,22 @@
 					<li class="itemCardapio">  Sensação </li>
 					<p class="subItemCardapio" > Chocolate preto, morango e leite condensado </p>
 					
-					<li class="itemCardapio">  </li>
-					<p class="subItemCardapio" >  </p>
+					<li class="itemCardapio">  Romeu e Julieta </li>
+					<p class="subItemCardapio" >  Leite condensado, goiabada, e mussarela  </p>
 				</ul>
 				<ul class="listaPreco"> 
-					<li class="itemPreco"> R$ 29.99 </li>
-					<li class="itemPreco"> R$ 29.99 </li>
-					<li class="itemPreco"> R$ 29.99 </li>
-					<li class="itemPreco"> R$ 29.99 </li>
-					<li class="itemPreco"> R$ 29.99 </li>
+					<li class="itemPreco"> R$ 26.00 </li>
+					<li class="itemPreco"> R$ 24.00 </li>
+					<li class="itemPreco"> R$ 26.00 </li>
+					<li class="itemPreco"> R$ 26.00 </li>
+					<li class="itemPreco"> R$ 26.00 </li>
+					<li class="itemPreco"> R$ 25.00 </li>
 				</ul>
 			</div>
+			
+			<!--Cardapio pizza salgada-->
 			<div class="menuCardapio"> 
-				<h3> PIZZA DOCE </h3>
+				<h3> PIZZA SALGADA </h3>
 				<ul class="listaCardapio"> 
 					<li class="itemCardapio"> Calabresa </li>
 					<p class="subItemCardapio"> Calabresa, cebola, orégano </p>
@@ -66,19 +100,24 @@
 					<li class="itemCardapio"> Portuguesa </li>
 					<p class="subItemCardapio" > Ovos, cebola, ervilha, queijo e presunto </p>
 					<li class="itemCardapio"> Marguerita </li>
-					<p class="subItemCardapio" > Ovos, cebola, ervilha, queijo e presunto </p>
+					<p class="subItemCardapio" > Mussarela, catupiry, parmesão e tomate </p>
 					
 					<li class="itemCardapio"> Frango com Catupiry </li>
 					<p class="subItemCardapio" > Ovos, cebola, ervilha, queijo e presunto </p>
 					
-					<li class="itemCardapio"> Muçarela </li>
+					<li class="itemCardapio"> Mussarela </li>
 					<p class="subItemCardapio" > Ovos, cebola, ervilha, queijo e presunto </p>
 					
-					<li class="itemCardapio"> Napolitana </li>
-					<p class="subItemCardapio" > Ovos, cebola, ervilha, queijo e presunto </p>
+					<li class="itemCardapio"> Atum </li>
+					<p class="subItemCardapio" > Atum, mussarela, cebola e tomate</p>
 				</ul>
 				<ul class="listaPreco"> 
-					<li class="itemPreco"> R$ 29.99 </li>
+					<li class="itemPreco"> R$ 20.00 </li>
+					<li class="itemPreco"> R$ 30.00 </li>
+					<li class="itemPreco"> R$ 20.00 </li>
+					<li class="itemPreco"> R$ 25.00 </li>
+					<li class="itemPreco"> R$ 22.00 </li>
+					<li class="itemPreco"> R$ 30.00 </li>
 				</ul>
 			</div>
 		</div>
@@ -86,37 +125,46 @@
 	
 	<div id="combo">
 		<div class="organizarCombo"> 
+			<!-- combo solteiro -->
 			<div class="tipoCombo"> 
 				<div class="descricaoCombo">
-					<h2> COMBO SOLO </h2>
-					<p class="textoCombo"> 
-						texto informativo 
-						sobre a pizza
-					</p>
+					<h2> COMBO SOLTEIRO </h2>
+					<ul class="listaDescricao"> 
+						<li class="itemDescricao"> pizza salgada com 4 fatias </li>
+						<li class="itemDescricao"> refrigerante 400ml </li>
+						<li class="itemDescricao"> 3 esfirras doce </li>
+						<li class="precoDescricao"> R$ 28.00 </li>
+					</ul>
 				</div>
 				
 				<img class="imgCombo" src="img/pizzaCombo4.png">
 			</div>
 			
+			<!-- combo familia -->
 			<div class="tipoCombo"> 
 				<div class="descricaoCombo">
 					<h2> COMBO FAMILIA </h2>
-					<p class="textoCombo"> 
-						texto informativo 
-						sobre a pizza
-					</p>
+					<ul class="listaDescricao"> 
+						<li class="itemDescricao"> 2 pizzas salgada/doce </li>
+						<li class="itemDescricao"> refrigerante 2L </li>
+						<li class="itemDescricao"> 10 esfirras salgada/doce </li>
+						<li class="precoDescricao"> R$ 60.00 </li>
+					</ul>
 				</div>
 				
 				<img class="imgCombo" src="img/pizzaCombo5.png">
 			</div>
 			
+			<!-- combo galera -->
 			<div class="tipoCombo"> 
 				<div class="descricaoCombo">
 					<h2> COMBO GALERA </h2>
-					<p class="textoCombo"> 
-						texto informativo 
-						sobre a pizza
-					</p>
+					<ul class="listaDescricao"> 
+						<li class="itemDescricao"> 6 pizzas salgada/doce </li>
+						<li class="itemDescricao"> 3 refrigerantes 2L </li>
+						<li class="itemDescricao"> 20 esfirras salgada/doce </li>
+						<li class="precoDescricao"> R$ 145.00 </li>
+					</ul>
 				</div>
 				
 				<img class="imgCombo" src="img/pizzaCombo8.png">
@@ -177,9 +225,20 @@
 		</div>
 	</div>
 	
-
+	<div id="localizacao">
+		<div id="organizarlocal"> 
+			<a href="https://www.google.com/maps/place/R.+Maria+Teodoro+Dos+Santos+-+Jardim+Minezotta+(Nova+Veneza),+Sumar%C3%A9+-+SP,+13183-091/@-22.8195444,-47.1783996,17z/data=!4m9!1m2!2m1!1srua+maria+teodoro!3m5!1s0x94c8befde91b53a1:0x8b14eb4af519a7a3!8m2!3d-22.8195494!4d-47.1762109!15sChFydWEgbWFyaWEgdGVvZG9yb5IBBXJvdXRl"> 
+				<img id="imgLocal" src="img/localizacao4.png"> 
+			</a>
+			
+			<p id="textoLocal"> Rua Maria Teodora, 1450 - Jardim Belo Som  </p>
+		</div>
+	</div>
+	
 	<footer>
-
+		<p id="textoFooter">
+			Este site é um projeto realizado por Rebeca Nascimento Prado, aluna do SENAI Jandira. Para a disciplina de ...... do Curso Informatica para WEB.
+		</p>
 	</footer>
 </body>
 </html>
